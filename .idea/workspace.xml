@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1454928-0694-4784-9e91-a4c09f8da381" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oop_359211110025/src/ooplab3/TestForLoop.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oop_359211110025/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../oop_359211110025/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oop_359211110025/src/ooplab3/CalGrade.java" afterPath="$PROJECT_DIR$/../oop_359211110025/src/ooplab3/CalGrade.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../oop_359211110025/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestForLoop.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../oop_359211110025/src/ooplab3/TestForLoop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalGrade.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalGrade.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../oop_359211110025/src/ooplab3/CalGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="259">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511772339294</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test For Loop">
+      <created>1511775560916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1511775560917</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -471,7 +466,8 @@
     <MESSAGE value="TestCondition" />
     <MESSAGE value="Cal Grade" />
     <MESSAGE value="Test Switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Switch" />
+    <MESSAGE value="Test For Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test For Loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,21 +541,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../oop_359211110025/src/ooplab3/CalGrade.java">
+    <entry file="file://$PROJECT_DIR$/../oop_359211110025/src/ooplab3/TestForLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="313">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../oop_359211110025/src/ooplab3/TestForLoop.java">
+    <entry file="file://$PROJECT_DIR$/../oop_359211110025/src/ooplab3/CalGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="259">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
