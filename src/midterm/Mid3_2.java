@@ -6,52 +6,64 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Mid3_2 {
-    static BufferedReader input=new BufferedReader
+    static BufferedReader input = new BufferedReader
             (new InputStreamReader(System.in));
-    static Scanner ot =new Scanner(System.in);
-    static Scanner pay=new Scanner(System.in);
+    static Scanner number = new Scanner(System.in);
+
     public static void main(String[] args) throws IOException {
-        getID(input);
-        getName(input);
-        getSalary(pay);
-        getOverTime(ot);
-        showDataInfo();
+        String id = getID();
+        String name = getName();
+        float pay = getSalary();
+        float ot = getOverTime();
+        showDataInfo(id, name, pay, ot);
     }//main
 
-    public static void showDataInfo() throws IOException {
-
+    private static void showDataInfo(String id, String name, float pay, float ot) {
         System.out.println("--------------------------");
-        System.out.println("ID:" +getID(input));
-        System.out.println("Name:" + getName(input));
-        System.out.println("Salary:" +getSalary(pay)+" Baht");
-        System.out.println("OverTime:" +getOverTime(ot)+" Baht");
+        System.out.println("ID : " + id);
+        System.out.println("Name : " + name);
+        System.out.println("Salary : " + pay + " Baht");
+        System.out.println("OverTime : " + ot + " Baht");
+        System.out.println("Taxable :" + incomeAndTaxes(pay, ot)+" %");
+    }//showDataInfo
 
-    }
-    private static String getID(BufferedReader input)
-            throws IOException {
+    private static String getID() throws IOException {
         System.out.print("Enter your ID: ");
-        String id =input.readLine();
+        String id = input.readLine();
         return id;
     }//getID
 
-    private static String getName(BufferedReader input)
-            throws IOException {
+    public static String getName() throws IOException {
         System.out.print("Enter your name: ");
-        String name =input.readLine();
+        String name = input.readLine();
         return name;
     }//getName
 
-    private static int getOverTime(Scanner ot)
-            throws IOException{
-        System.out.print("Enter your OverTime: ");
-        int overtime = ot.nextInt();
-        return overtime;
+    public static float getSalary() {
+        System.out.print("Enter your Salary: ");
+        float salary = number.nextFloat();
+        return salary;
+    }//getSalary
+
+    public static float getOverTime() {
+        System.out.print("Enter your Over Time: ");
+        float overTime = number.nextFloat();
+        return overTime;
     }//getOverTime
 
-    private static int getSalary(Scanner pay)
-            throws IOException{
-        System.out.print("Enter your Salary: ");
-          int salary = pay.nextInt();
-        return salary;
-    }//OverTime
+    private static int incomeAndTaxes(float i, float m) {
+        float income = m + i;
+        System.out.println("Income : " + income + " Baht");
+        if (income >= 100000) {
+            return 10;
+        } else if (income >= 70000) {
+            return 7;
+        } else if (income >= 50000) {
+            return 5;
+        } else if (income >= 30000) {
+            return 3;
+        } else {
+            return 1;
+        }
+    }//incomeAndTaxes
 }//class
