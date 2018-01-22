@@ -11,7 +11,7 @@ public class mySuperCar {
     }//main
     private static SuperCar inputData(SuperCar car) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter Supercar info : ");
+        System.out.println("Please enter SupercarInfo");
         System.out.print("Enter CarBrand : ");
         car.setCarbrand(scanner.nextLine());
         System.out.print("Enter CarColor : ");
