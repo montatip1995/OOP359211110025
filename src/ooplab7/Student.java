@@ -5,7 +5,9 @@ package ooplab7;
 // 2.name
 // 3.major
 // 4.group
+
 public class Student {
+
     private String id;
     private String name;
     private String major;
