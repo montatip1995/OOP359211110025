@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1454928-0694-4784-9e91-a4c09f8da381" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/PatApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ooplab8/Pet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="47">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -70,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PatApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PatApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ooplab8/PatApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
@@ -667,11 +663,19 @@
       <option name="project" value="LOCAL" />
       <updated>1517209532210</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="PatApp">
+      <created>1517212469504</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1517212469504</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -733,7 +737,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cal Grade" />
     <MESSAGE value="Test Switch" />
     <MESSAGE value="Test For Loop" />
     <MESSAGE value="Grade For Loop 1-3 Error" />
@@ -758,7 +761,8 @@
     <MESSAGE value="MySuperCar" />
     <MESSAGE value="SuperCarInput10" />
     <MESSAGE value="MySuperCarInput10" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySuperCarInput10" />
+    <MESSAGE value="PatApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="PatApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1077,19 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ooplab8/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab8/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1112,6 +1103,19 @@
         <state relative-caret-position="141">
           <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab8/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
