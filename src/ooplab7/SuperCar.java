@@ -1,70 +1,64 @@
 package ooplab7;
 
 public class SuperCar {
-    private String carbrand;
-    private String carcolor;
-    private String carengsize;
+    private String carBrand;
+    private String carColor;
+    private String engSize;
     private String carmaxspeed;
     private String carcounofori;
-
+    //constructor
     public SuperCar(){}
+    public SuperCar(String b,String c, String e,String f,String g){
 
-    public String getCarbrand() {
-        return carbrand;
+        this.carBrand = b;
+        this.carColor = c;
+        this.engSize =e;
+        this.carmaxspeed = f;
+        this.carcounofori =g;
     }
 
-    public void setCarbrand(String carbrand) {
-        this.carbrand = carbrand;
-    }
-
-    public String getCarcolor() {
-        return carcolor;
-    }
-
-    public void setCarcolor(String carcolor) {
-        this.carcolor = carcolor;
-    }
-
-    public String getCarengsize() {
-        return carengsize;
-    }
-
-    public void setCarengsize(String carengsize) {
-        this.carengsize = carengsize;
-    }
-
-    public String getCarmaxspeed() {
+    public String carmaxspeed() {
         return carmaxspeed;
     }
 
-    public void setCarmaxspeed(String carmaxspeed) {
-        this.carmaxspeed = carmaxspeed;
-    }
-
-    public String getCarcounofori() {
+    public String carcounofori() {
         return carcounofori;
     }
 
-    public void setCarcounofori(String carcounofori) {
-        this.carcounofori = carcounofori;
+    public String getCarColor() {
+        return carColor;
     }
 
-    public SuperCar (String cbd, String ccl, String ces, String csp, String cco) {
-        this.carbrand = cbd;
-        this.carcolor=ccl;
-        this.carengsize=ces;
-        this.carmaxspeed=csp;
-        this.carcounofori=cco;
-
-
-    }//constructor
-    public void getSupercarInfo() {
-        System.out.println("SuperCarInfo");
-        System.out.println("CarBrand : "+ this.carbrand);
-        System.out.println("CarColor : "+ this.carcolor);
-        System.out.println("CarEnginesize : "+ this.carengsize);
-        System.out.println("CarMaxspeed : "+ this.carmaxspeed);
-        System.out.println("CountryofOrigin : "+ this.carcounofori);
+    public void setCarColor(String carColor) {
+        this.carColor = carColor;
     }
 
+    //getter and setter methods
+    public String getCarBrand() {
+        return carBrand;
+    }
+
+    public void setCarBrand(String carBrand) {
+        this.carBrand = carBrand;
+    }
+
+    public String getEngSize() {
+        return engSize;
+    }
+
+    public void setEngSize(String engSize) {
+        this.engSize = engSize;
+    }
+
+
+
+    public String getSuperCarInfo() {
+        return "SuperCar{" +
+                "carBrand='" + carBrand + '\'' +
+                ", carColor='" + carColor + '\'' +
+                ", engSize='" + engSize + '\'' +
+                ", carmaxspeed='" + carmaxspeed + '\'' +
+                ", carcounofori='" + carcounofori + '\'' +
+                '}';
+    }//getSuperCarInfo
 }//class
