@@ -17,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CarApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ooplab9/CarApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -27,20 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ooplab9/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="78">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
               <folding>
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -420,13 +414,6 @@
       <option name="presentableId" value="Default" />
       <updated>1511703220594</updated>
     </task>
-    <task id="LOCAL-00004" summary="Input Data">
-      <created>1511710786420</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1511710786420</updated>
-    </task>
     <task id="LOCAL-00005" summary="Testing input again">
       <created>1511766866651</created>
       <option name="number" value="00005" />
@@ -763,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517829375536</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="CarApp">
+      <created>1517829421152</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1517829421152</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -830,7 +824,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="midterm3_2" />
     <MESSAGE value="Student" />
     <MESSAGE value="StudentApp" />
     <MESSAGE value="SuperCar" />
@@ -855,7 +848,8 @@
     <MESSAGE value=" PersonApp" />
     <MESSAGE value="Car" />
     <MESSAGE value="Cow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cow" />
+    <MESSAGE value="CarApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="CarApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1135,23 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ooplab9/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ooplab9/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1216,6 +1193,17 @@
         <state relative-caret-position="273">
           <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ooplab9/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
